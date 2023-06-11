@@ -1,0 +1,100 @@
+.title {
+  float: left;
+  font-family: "Monserrat";
+  text-align: center;
+  color: cyan;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 1px;
+  line-height:2;
+  width: 60%;
+  margin-right: 200pt;
+}
+
+h1 {
+  color: cyan;
+  float: left;
+  font-size: 50px;
+  width: 90%;
+  margin: 10px 0;
+ 
+}
+body {
+  font-family: "Monserrat", serif;
+  margin-top: 94px; /* Margen superior del cuerpo para compensar la altura del encabezado */
+  font-size: 15px;
+  background-color: white;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 4%;
+  margin: auto;
+  text-align: justify;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  background: #272727;
+  color: #FFF;
+  display: flex;
+  justify-content: flex-end;
+  opacity: 1;
+  width: 100%;
+}
+div[id*="titulo"]{
+  width: 15%;
+  
+}
+div[id*="informacion"]{
+  
+  width: 95%;
+}
+div[id*="biblotecasframeworks"]{
+  
+  width: 95%;
+
+}
+div[id*="comunidad"]{
+  
+  width: 95%;
+
+}
+div[id*="casos"]{
+  
+  width: 95%;
+
+}
+div[id*="desafiosconsideraciones"]{
+ 
+  width: 95%;
+
+}
+div[id*="recursosrecomendaciones"]{
+  
+  width: 95%;
+
+}
+h2, h3, h4, p{
+  font-family: Arial, sans-serif;
+}
+h2{
+  font-size: 27px;
+}
+h3{
+  font-size: 18px;
+  margin-left: 3%;
+  color: #4C5FFF;
+
+}
+h4{
+  width: 40%;
+  color: #272727;
+}
+
+p{
+  text-align: justify;
+  font-size: 16.5px;
+}
